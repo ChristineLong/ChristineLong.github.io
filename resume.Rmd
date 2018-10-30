@@ -5,7 +5,6 @@ date: "October 30, 2018"
 output: html_document
 ---
 
-Associate Statistician / Data Scientist / Problem Solver / Active Thinker
 
 &nbsp;
 &nbsp;
