@@ -5,6 +5,12 @@ navbar:
   left:
     - text: "Resume"
       href: resume.html
+    - text: "Publications"
+      href: public.html
+    - text: "Projects"
+      href: project.html 
+    - text: "Contact"
+      href: contact.html 
   right:
     - text: "About"
       href: about.html
