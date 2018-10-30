@@ -1,3 +1,32 @@
 ---
 title: "Publications"
 ---
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+**[Retrospective Natural History of Thymidine Kinase 2 Deficiency](https://jmg.bmj.com/content/55/8/515.long) \ \ \ \ \ \ Journal of Medical Genetics  **  <br /> 
+Garone C, et al, Long Y, Rahman S, Donati MA, DiMauro S, Hirano M.
+
+**Clinical, biochemical and genetic features of patients with mitochondrial diseases: Data from the North American Mitochondrial Disease Consortium (NAMDC) registry**  \ \ \ \ Submitted to JAMA Neurology on August 23rd.
+Barca E, Cooley V, Schoenaker R, Emmanuele V, DiMauro S, Long Y, et al.
+
+**[Systematic investigations of different cytosine modifications on CpG dinucleotide sequences: the effects on the B-Z transition](https://pubs.acs.org/doi/abs/10.1021/ja4107012)\ \ \ \ \ \ Journal of the American Chemical Society **   <br />
+Wang S, Long Y, Wang J, Ge Y, Guo P, Liu Y, Tian T, Zhou X
+
+**[Novel amplex red oxidases based on noncanonical DNA structures: property studies and applications in microRNA detection](https://pubs.acs.org/doi/10.1021/ac402535a)  \ \ \ \ Analytical Chemistry **  <br /> 
+Wang S, Fu B, Wang J, Long Y, Zhang X, Peng S, Guo P, Tian T, Zhou X. 
+
+**[Systematic investigation of DNAs with modified cytosines under hot alkali treatment](https://pubs.rsc.org/en/Content/ArticleLanding/2013/CC/c3cc45423a#!divAbstract) \ \ \ \  Chemical Communications**     <br /> 
+Tian T, Zhang X, Fu B, Long Y, Peng S, Wang S, Zhou X, Zhou X. 
+
+**[5-Methyldeoxycytidine enhances the substrate activity of DNA polymerase](https://pubs.rsc.org/en/Content/ArticleLanding/2013/CC/c3cc44017f#!divAbstract)  \ \ \ \  Chemical Communications**    <br /> 
+Tian T, Peng S, Xiao H, Long Y, Fu B, Zhang X, Guo S, Wang S, Zhou X, Liu S, Zhou X.
+
+**[Sensitive and convenient detection of microRNAs based on cascade amplification by catalytic DNAzymes](https://onlinelibrary.wiley.com/doi/full/10.1002/chem.201203344)  \ \ \ \  Chemistry**      <br /> 
+Tian T, Xiao H, Zhang Z, Long Y, Peng S, Wang S, Zhou X, Liu S, Zhou X.
+
+**[Sensitive analysis of DNA methyltransferase based on a hairpin-shaped DNAzyme](https://pubs.rsc.org/en/Content/ArticleLanding/2012/CC/c2cc35648a#!divAbstract) \ \ \ \ Chemical Communications** <br />  Tian T, Xiao H, Long Y, Zhang X, Wang S, Zhou X, Liu S, Zhou X.
