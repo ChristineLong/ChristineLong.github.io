@@ -1,3 +1,41 @@
 ---
 title: "Projects"
 ---
+
+### Clinical, biochemical and genetic features of patients with mitochondrial diseases
+Columbia University Medical Center \ \ \ \ \	Apr – Aug 2018 
+
++	Merged datasets with more than 50 features for 1,000 patients with SAS procedures including macro
++	Built logistic regression to classify complex disorders and help diseases diagnoses with e1071 in R
++	Utilized goodness of fit test to indicate that the model fits the data
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+### Retrospective Natural History of Thymidine Kinase 2 Deficiency   
+Columbia University Medical Center \ \ \ \ \	Nov – Feb 2018  
+
++	Incorporated patients’ information from 31 medical centers, and explored and preprocessed data using data cleaning, transformation, segmentations with SAS proc import, merge, proc freq, proc means, etc
++	Constructed statistical models to investigate disease progress pattern of certain population
++	Used chi square test on baseline characteristics to avoid selection bias in R
++	Performed signed-rank test to determine the best treatments for different age groups of people
+
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+### Prediction on Parkinson’s Disease Pathway                                                                          
+Mount Sinai Health System \ \ \ \ \	May-Sep 2016  
+
++	Extracted different groups of patients’ information from relational database with MySQL, and interpolated missing values using KNN
++	Constructed regression models to select key factors leading to the disease using caret package in R
++	Presented results with data visualization in Tableau        

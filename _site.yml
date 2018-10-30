@@ -8,7 +8,7 @@ navbar:
     - text: "Publications"
       href: public.html
     - text: "Projects"
-      href: project.html 
+      href: project.html
     - text: "Contact"
       href: contact.html 
   right:
