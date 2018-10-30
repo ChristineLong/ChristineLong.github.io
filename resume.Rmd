@@ -63,7 +63,7 @@ Mount Sinai Health System
 
 
 
-### SKILLS AND CERTIFICATES
+## SKILLS AND CERTIFICATES
 
 +	Computer skills: R, Python, SAS, SQL, Tableau, Excel, MATLAB         <br />
 +	Modeling: OLS, Lasso, Ridge, Logistic Regression, SVM, Decision Tree, Random Forest, Boosting, PCA, KNN      <br />
