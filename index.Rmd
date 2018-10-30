@@ -4,3 +4,81 @@ title: "Christine Long"
 
 Associate Statistician / Data Scientist / Problem Solver / Active Thinker
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+## EDUCATION
+
+### Columbia University  \ \ \ \ \ \ \ \ *Biostatistics*  <br /> 
+M.S. (Theory and Method Track)\ \ \ \ \ \ Sep 2018 - May 2020
+
+### Columbia University  \ \ \ \ \ \ \ \ *Chemical Engineering*  <br />  
+M.S. \ \ \ \ \ \ Sep 2014 - Dec 2015
+
+### Wuhan University  \ \ \ \ \ \ \ \ *Applied Chemistry *  <br /> 
+B.S. \ \ \ \ \ \ Sep 2010 – Jun 2014
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+## EXPERIENCE
+
+### Associate Statistician  
+Columbia University Medical Center 
+
++	Build regression models using demographic, diagnostic and genetic information to predict potential patients or patients' future conditions with glmnet package in R   <br /> 
++	Calculate sample size through power calculation and adjust p values for multiple comparisons   <br /> 
++	Select best predictive models in classification or regression analysis, and develop two sample t-test to choose a better strategy for patient treatments  <br /> 
++	Prepare statistical reports on descriptive analysis and presented with data visualizations (ggplot2 in R)
+
+### Associate Researcher II
+Mount Sinai Health System 
+
++	Supported target identification, prioritization and validation to neurodegenerative diseases research unit   <br /> 
++	Applied data transformation and developed machine learning models with 200,000+ records, including random forest, logistic regression and SVM to understand disease mechanisms     <br /> 
++	Built predictive models to understand the role of different types of influences in diseases using Python pandas and scikit-learn     <br /> 
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
+### SKILLS AND CERTIFICATES
+
++	Computer skills: R, Python, SAS, SQL, Tableau, Excel, MATLAB         <br />
++	Modeling: OLS, Lasso, Ridge, Logistic Regression, SVM, Decision Tree, Random Forest, Boosting, PCA, KNN      <br />
++	Certificates: SAS Certified Advanced Programmer for SAS 9           <br />
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
