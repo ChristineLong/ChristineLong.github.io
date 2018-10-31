@@ -7,10 +7,12 @@ title: "Projects"
 &nbsp;
 &nbsp;
 &nbsp;
+&nbsp;
+
 
 ### Interactive Data Visualization: Online Grocery Shopping Report
 
-```{r echo=FALSE}
+```{r echo=FALSE, message=FALSE}
 #Load neccessary library
 library(tidyverse)
 library(viridis)
@@ -18,7 +20,7 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-```{r echo=FALSE warning=FALSE}
+```{r echo=FALSE, warning=FALSE}
 #First plot: Show the order and reordered percentage of different aisles, colored by different departments
 instacart %>% 
   group_by(aisle,department) %>% 
@@ -29,7 +31,7 @@ instacart %>%
          alpha = 0.8,
          color = ~department,
          text = ~text_label) %>%
-  layout(xaxis = list(title = "Order Percentage of Aisles"), yaxis = list(title = "Reordered Percentage of Aisles"))
+  layout(title = "Order and Reorder perccentage of Aisles", xaxis = list(title = "Order Percentage of Aisles"), yaxis = list(title = "Reordered Percentage of Aisles"))
 ```
 
 &nbsp;
@@ -39,7 +41,7 @@ instacart %>%
 &nbsp;
 &nbsp;
 
-```{r echo=FALSE warning=FALSE}
+```{r echo=FALSE, warning=FALSE}
 #Second plot: order amount with the hours of the day for different days of the week
 instacart %>% 
   mutate(order_dow = recode(order_dow, '0' = "Sunday", '1' = "Monday", '2' = "Tuesday", '3' = "Wednesday", '4' = "Thursday", '5' = "Friday", '6' = "Saturday"), 
@@ -51,7 +53,7 @@ instacart %>%
          type = "scatter", mode = "lines", 
          color = ~order_dow,
          text = ~text_label) %>%
-  layout(xaxis = list(title = "Order Hour"), yaxis = list(title = "Order Amount"))
+  layout(title = 'Order Amount Through Out the Day', xaxis = list(title = "Order Hour"), yaxis = list(title = "Order Amount"))
 ```
 
 
