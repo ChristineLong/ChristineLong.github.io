@@ -8,7 +8,7 @@ title: "Projects"
 &nbsp;
 &nbsp;
 
-### Sample Project: Online Grocery Shopping Report
+### Interactive Data Visualization: Online Grocery Shopping Report
 
 ```{r echo=FALSE}
 #Load neccessary library
@@ -18,7 +18,7 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-```{r echo=FALSE}
+```{r echo=FALSE warning=FALSE}
 #First plot: Show the order and reordered percentage of different aisles, colored by different departments
 instacart %>% 
   group_by(aisle,department) %>% 
@@ -39,6 +39,20 @@ instacart %>%
 &nbsp;
 &nbsp;
 
+```{r echo=FALSE warning=FALSE}
+#Second plot: order amount with the hours of the day for different days of the week
+instacart %>% 
+  mutate(order_dow = recode(order_dow, '0' = "Sunday", '1' = "Monday", '2' = "Tuesday", '3' = "Wednesday", '4' = "Thursday", '5' = "Friday", '6' = "Saturday"), 
+         order_dow = factor(order_dow,  levels = c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"))) %>% 
+  group_by(order_dow, order_hour_of_day) %>% 
+  summarise(total_order = n()) %>% 
+  mutate(text_label = str_c("Hour: ", order_hour_of_day, '\nDay: ', order_dow)) %>% 
+  plot_ly(x = ~ order_hour_of_day, y = ~ total_order, 
+         type = "scatter", mode = "lines", 
+         color = ~order_dow,
+         text = ~text_label) %>%
+  layout(xaxis = list(title = "Order Hour"), yaxis = list(title = "Order Amount"))
+```
 
 
 ### Clinical, biochemical and genetic features of patients with mitochondrial diseases
