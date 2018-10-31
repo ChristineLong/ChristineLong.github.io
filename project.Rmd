@@ -10,7 +10,7 @@ title: "Projects"
 
 ### Sample Project: Online Grocery Shopping Report
 
-```{r}
+```{r echo=FALSE}
 #Load neccessary library
 library(tidyverse)
 library(viridis)
@@ -18,17 +18,28 @@ library(p8105.datasets)
 library(plotly)
 ```
 
-```{r}
+```{r echo=FALSE}
+#First plot: Show the order and reordered percentage of different aisles, colored by different departments
 instacart %>% 
   group_by(aisle,department) %>% 
-  summarise(total_order_n = n(), reorder_n = sum(reordered)) %>% 
-  ggplot(aes(x = total_order_n/100, y = reorder_n/total_order_n, color = department)) + geom_point(alpha = 0.4)
+  summarise(order_n = n(), reorder_n = sum(reordered)) %>% 
+  mutate(text_label = str_c("Aisle: ", aisle, '\nDepartment: ', department), order_percent = order_n/nrow(instacart), reorder_perent = reorder_n/order_n) %>% 
+  plot_ly(x = ~ order_percent, y = ~ reorder_perent, 
+         type = "scatter", mode = "markers", 
+         alpha = 0.8,
+         color = ~department,
+         text = ~text_label) %>%
+  layout(xaxis = list(title = "Order Percentage of Aisles"), yaxis = list(title = "Reordered Percentage of Aisles"))
 ```
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
-&nbsp;
-&nbsp;
-&nbsp;
+
 
 ### Clinical, biochemical and genetic features of patients with mitochondrial diseases
 Columbia University Medical Center \ \ \ \ \	Apr – Aug 2018 
