@@ -57,6 +57,19 @@ instacart %>%
 ```
 
 
+```{r echo=FALSE, warning=FALSE}
+#Third plot: best-selling products in the best selling aisle and worst selling products in the worst selling products (best/worst-selling considered both order and reordered)
+instacart %>% 
+  filter(aisle == "fresh fruits") %>% 
+  count(product_name) %>% 
+  mutate(product_name_fct = fct_reorder(product_name, n)) %>% 
+  filter(min_rank(desc(n)) < 20) %>% 
+  plot_ly(x = ~product_name_fct, y = ~n, color = ~product_name, type = "bar") %>%
+  layout(title = 'Best-selling products in Fresh Fruit Aisle', xaxis = list(title = "Product Name"), yaxis = list(title = "Order Amount"))
+
+```
+
+
 ### Clinical, biochemical and genetic features of patients with mitochondrial diseases
 Columbia University Medical Center \ \ \ \ \	Apr – Aug 2018 
 
