@@ -1,6 +1,34 @@
 ---
 title: "Projects"
 ---
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+### Sample Project: Online Grocery Shopping Report
+
+```{r}
+#Load neccessary library
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r}
+instacart %>% 
+  group_by(aisle,department) %>% 
+  summarise(total_order_n = n(), reorder_n = sum(reordered)) %>% 
+  ggplot(aes(x = total_order_n/100, y = reorder_n/total_order_n, color = department)) + geom_point(alpha = 0.4)
+```
+
+
+&nbsp;
+&nbsp;
+&nbsp;
 
 ### Clinical, biochemical and genetic features of patients with mitochondrial diseases
 Columbia University Medical Center \ \ \ \ \	Apr – Aug 2018 
