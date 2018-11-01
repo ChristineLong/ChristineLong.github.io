@@ -1,10 +1,15 @@
 ---
 title: "Projects"
 ---
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
+### Sample Projects
 
-###Sample Projects
-+ Interactive Data Visualization Using Online Shopping Data
+[Interactive Data Visualization Using Online Shopping Data](data_visualization.html)
 
 
 &nbsp;
