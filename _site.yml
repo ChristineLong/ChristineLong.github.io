@@ -22,6 +22,4 @@ navbar:
       href: https://www.linkedin.com/in/christinelongcolumbia/
 output:
   html_document:
-    toc: true
-    toc_float: true
     css: bootstrap.css
