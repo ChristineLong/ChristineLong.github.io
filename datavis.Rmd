@@ -69,8 +69,4 @@ instacart %>%
 
 ```
 
-```{r}
-#Create html
-rmarkdown::render("datavis.Rmd", output_format = "flex_dashboard")
-```
 
