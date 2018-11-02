@@ -6,12 +6,14 @@ output:
     vertical_layout: fill
 ---
 
+
 ```{r setup, include=FALSE}
 #Load neccessary library
 library(tidyverse)
 library(viridis)
 library(p8105.datasets)
 library(plotly)
+library(flexdashboard)
 ```
 
 Column {data-width=600}
@@ -67,8 +69,8 @@ instacart %>%
 
 ```
 
-```{r include=FALSE}
+```{r}
 #Create html
-rmarkdown::render("data visualization.rmd", output_format = "flex_dashboard")
+rmarkdown::render("datavis.Rmd", output_format = "flex_dashboard")
 ```
 

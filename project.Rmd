@@ -9,7 +9,7 @@ title: "Projects"
 
 ### Sample Projects
 
-[Interactive Data Visualization Using Online Shopping Data](data_visualization.html)
+[Interactive Data Visualization Using Online Shopping Data](datavis.html)
 
 
 &nbsp;
