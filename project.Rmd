@@ -9,11 +9,9 @@ title: "Projects"
 
 ### Sample Projects
 
-[Interactive Data Visualization Using Online Shopping Data](datavis.html)
++ [Interactive Data Visualization Using Online Shopping Data](datavis.html)
 
-&nbsp;
-
-[Gun Violence in the United States](https://eshea6.github.io/us_gun_violence.github.io/index.html) with regression and data visualization
++ [Gun Violence in the United States](https://eshea6.github.io/us_gun_violence.github.io/index.html) with regression and data visualization
 
 
 &nbsp;
@@ -60,5 +58,5 @@ Columbia University Medical Center \ \ \ \ \	Nov – Feb 2018
 Mount Sinai Health System \ \ \ \ \	May-Sep 2016  
 
 +	Extracted different groups of patients’ information from relational database with MySQL, and interpolated missing values using KNN
-+	Constructed regression models to select key factors leading to the disease using caret package in R
++	Constructed supervised learning models to select key factors leading to the disease using caret package in R
 +	Presented results with data visualization in Tableau        
